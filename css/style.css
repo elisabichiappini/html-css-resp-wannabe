@@ -134,8 +134,18 @@ img {
     padding: 0 20px;
 }
 
-@media screen and (max-width: 768px) {
-    .why-us > img {
-        width: 100vw;
+/*da 768 a 0*/
+@media screen and (max-width: 480px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
     }
+
+    .col {
+        display: flex;
+        flex-shrink: 0;
+        width: 100%;
+
+    }
+
 }
