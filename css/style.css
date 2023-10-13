@@ -134,18 +134,19 @@ img {
     padding: 0 20px;
 }
 
-/*da 768 a 0*/
+/*da 480 a 0*/
 @media screen and (max-width: 480px) {
-    .row {
+
+    .lessons .container div.row {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .col {
-        display: flex;
+    .lessons .container .row div.col {
         flex-shrink: 0;
         width: 100%;
-
+        margin-bottom: 40px;
     }
 
 }
