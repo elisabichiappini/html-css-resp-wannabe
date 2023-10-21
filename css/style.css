@@ -128,29 +128,28 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
 ************************************************/
+
+/*da 1140 a 0*/
 @media screen and (max-width: 1140px) {
-.container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
 }
-}
+
 /*da 480 a 0*/
 @media screen and (max-width: 480px) {
-
 /* section lessons*/
     .lessons .row {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
     }
 
     .lessons .col {
         flex-shrink: 0;
         width: 100%;
-        padding-bottom: 40px;
+        padding-bottom: 2.5rem;
     }
-
 /* /section lessons*/
 
 /* section steps */
@@ -168,11 +167,9 @@ img {
         width: 100%;
         padding-bottom: 2.5rem;
     }
-
 /* /section steps */
 
 /* section why-us */
-
     .why-us .row {
         display: flex;
         flex-wrap: wrap;
@@ -188,6 +185,5 @@ img {
     body .why-us {
         background-color: #222222;
     }
-
 }
 /* /section why-us */
